@@ -6,9 +6,13 @@ function App() {
 
   console.log("FEBEte")
   return (
-    <div>
+    <div style={{
+      border: '2px solid blue',
+      display: 'flex', flexDirection: 'column', justifyContent: 'center', justifyItems: 'center', alignItems: 'center'
+    }}>
       <Currency />
-    </div>
+
+    </ div>
   )
 }
 
